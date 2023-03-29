@@ -8,8 +8,16 @@
 void puts2(char *str)
 {
 	int i;
-
-	for (i = 0 ; str[i] != '\0' ; o++)
+	int x =0;
+	int n = 0;
+	char *y = str;
+	while (*y != '\0')
+	{
+		y++;
+		n++;
+	}
+	x = n - 1;
+	for (i = 0 ; i <= x ; i++)
 	{
 		if (i % 2 == 0)
 		{
